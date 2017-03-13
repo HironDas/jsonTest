@@ -1,0 +1,1 @@
+{"version":3,"sources":["jsontest.ts"],"names":[],"mappings":"AAAA,sBAAsB,IAAY;IAC9B,OAAO,CAAC,GAAG,CAAC,IAAI,CAAC,CAAC;IAClB,MAAM,CAAC,KAAK,CAAC;AACjB,CAAC","file":"jsontest.js","sourcesContent":["function testFunction(name: string): boolean{\r\n    console.log(name);\r\n    return false;\r\n}"]}

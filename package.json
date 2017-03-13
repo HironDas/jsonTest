@@ -1,0 +1,32 @@
+{
+  "name": "jsontest",
+  "version": "1.0.0",
+  "description": "a JSON validator plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HironDas/jsonTest.git"
+  },
+  "keywords": [
+    "json",
+    "validator"
+  ],
+  "author": "Hiron Das <hcdas.09@gmail.com> (http://hcdas.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HironDas/jsonTest/issues"
+  },
+  "homepage": "https://github.com/HironDas/jsonTest#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-minify": "0.0.15",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-typescript": "^3.1.5",
+    "typescript": "^2.2.1"
+  }
+}

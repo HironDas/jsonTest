@@ -1,0 +1,9 @@
+{
+    "files": [
+        "src/ts/jsontest.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "es5"
+    }
+}
