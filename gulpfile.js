@@ -18,6 +18,14 @@ gulp.task('dev', function() {
         .pipe(gulp.dest('dist/js'));
 });
 
-gulp.task('default', ['dev']);
+gulp.task('default', ['dev', 'inject']);
 
-gulp.watch('dist/**/*.ts', ['dev']);
+gulp.task('inject', function() {
+    return gulp.src('./test/index.html')
+        .pipe(inject(gulp.src(['./dist/**/*.min.js', './test/**/*.css'], { read: false }), { relative: true }))
+        .pipe(gulp.dest('./test'));
+});
+
+gulp.task('watch', function() {
+    gulp.watch('src/**/*.ts', ['dev']);
+})

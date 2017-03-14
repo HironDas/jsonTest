@@ -1,0 +1,25 @@
+.content {
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+}
+
+.edit-box {
+    /*-moz-appearance: textfield-multiline;*/
+    /*-webkit-appearance: textarea;*/
+    width: 70%;
+    border: 3px solid #999;
+    background-color: #222;
+    margin: 0px auto;
+    min-height: 200px;
+    color: #999;
+}
+
+.edit-box ol {
+    margin-left: -15px;
+}
+
+.edit-box li>div {
+    padding: 5px 0px 5px 10px;
+    color: #eee;
+}
